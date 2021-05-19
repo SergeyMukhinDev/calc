@@ -82,8 +82,9 @@ document.getElementById('btn_0').addEventListener('click', function () {
         performing = false;    
     }
     if (parseFloat(inputWindow.value) !== '0') {
-    inputWindow.value = inputWindow.value + 0;
-    }
+        inputWindow.value = inputWindow.value + 0;
+        }
+    
 })
 
 
